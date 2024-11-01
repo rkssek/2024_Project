@@ -34,6 +34,10 @@ console.log(`${client.commands.size}개의 명령어가 로드되었습니다.`)
 const banword = require('./commands/banword');
 banword.listenForBannedWords(client);
 
+// 추가된 welcome.js 설정 호출
+const welcomeCommand = require('./commands/welcome');
+welcomeCommand.setup(client);
+
 client.once('ready', () => {
   console.log(`${client.user.tag}로 로그인되었습니다!`);
 });
