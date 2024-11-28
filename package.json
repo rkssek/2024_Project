@@ -4,6 +4,7 @@
     "cheerio": "^1.0.0",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5",
+    "mysql2": "^3.11.4",
     "pupeteer": "^0.0.1",
     "puppeteer": "^23.5.0"
   },
